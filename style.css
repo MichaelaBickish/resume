@@ -6,5 +6,44 @@
 }
 
 h1 {
-    color:(var(--company-blue))
+    color: var(--primary)
+}
+
+h1, h2, h3, h4, p {
+    margin: 0;
+}
+
+header {
+    background-color: var(--primary);
+    color: ghostwhite;
+    align-items: center;
+}
+
+header img{
+    width: 100%;
+    max-width: 200px;
+}
+
+.title-details{
+    margin-left: 1rem;
+}
+
+.title-details h1{
+    font-size: 4rem;
+}
+
+.contacts {
+    column-count: 2;
+}
+
+.padding-2 {
+    padding: 1.5rem;
+}
+
+.text-primary {
+    color: var(--primary)
+}
+
+main {
+    padding-top: 1rem;
 }
