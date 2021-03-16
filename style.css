@@ -1,0 +1,10 @@
+/* creat all variables at the :root to be used throughout the document */
+
+:root {
+    --primary: rgb(57, 87, 179);
+    --secondary: 
+}
+
+h1 {
+    color:(var(--company-blue))
+}
